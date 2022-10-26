@@ -1,0 +1,25 @@
+.site-logo__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--button-color);
+    display: flex;
+    text-decoration: none;
+}
+
+.site-logo__text {
+    margin: 0;
+}
+
+.site-logo__text--black {
+    color: var(--primery-text-colot);
+    margin-right: 93px;
+}
+
+.site-logo__text--white {
+    color: var(--back-color);
+    margin-bottom: 20px;
+}

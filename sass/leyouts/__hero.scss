@@ -1,3 +1,4 @@
+
 .hero {
     text-align: center;
     color: var(--back-color);
@@ -15,6 +16,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    & .hero__title{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .hero__title {
@@ -29,5 +35,5 @@
     width: 696px;
     margin-left: auto;
     margin-right: auto;
-
+   
 }
